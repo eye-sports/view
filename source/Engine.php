@@ -2,7 +2,7 @@
 
 namespace View;
 
-use Response\Responder;
+use View\Responder;
 use	Facades\View\Map;
 use	Xiaoler\Blade\Factory;
 
