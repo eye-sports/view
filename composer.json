@@ -1,0 +1,38 @@
+{
+	"name": "eye-sports/view",
+	"description": "Eye-sports view package.",
+	"keywords": [ "Eye-sports", "View" ],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "eye-sports@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"lionar/http": "*",
+		"lionar/support": "*",
+		"eye-sports/agreements": "*",
+		"eye-sports/facades": "*",
+		"php": ">=5.5.9",
+		"xiaoler/blade": "*"
+  	},
+	"require-dev": {
+		"lionar/testing": "*"
+	},
+	"autoload": {
+    	"psr-4": {
+			"View\\": "source"
+   	 	}
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+    		"View\\Tests\\": "tests"
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}

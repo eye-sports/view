@@ -1,0 +1,39 @@
+{
+	"name": "eye-sports/agreements",
+	"description": "Repository of ( business ) interfaces.",
+	"keywords": [ "Eye-sports", "Agreements", "Interfaces", "Abstract classes" ],
+	"license": "MIT",
+	"type": "agreements",
+	"authors": [
+		{
+			"name": "Aron Wouters",
+			"email": "eye-sports@mail.com",
+			"role": "Developer"
+		}
+	],
+	"require" : {
+		"lionar/composer": "*",
+		"lionar/support": "*",
+		"php": ">=5.5.9"
+  	},
+	"require-dev": {
+		"lionar/testing": "*"
+	},
+	"autoload": {
+    	"psr-4": {
+			"": [ "source" ]
+   	 	}
+  	},
+	"autoload-dev": {
+    	"psr-4": {
+    		"Notification\\Tests\\" : [ "tests/Notification" ],
+    		"Notifications\\Sports\\Exercise\\Tests\\" : [ "tests/Notifications/Sports/Exercise" ],
+			"Response\\Tests\\" : [ "tests/Response" ],
+			"Sports\\Tests\\" : [ "tests/Sports" ]
+		}
+	},
+	"config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
