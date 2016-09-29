@@ -3,7 +3,7 @@
 namespace View;
 
 use Response\Responder;
-use	Facades\Map;
+use	Facades\View\Map;
 use	Xiaoler\Blade\Factory;
 
 class Engine extends Responder
