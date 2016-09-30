@@ -1,9 +1,8 @@
 <?php
 
-namespace View;
+namespace EyeSports\View;
 
 use View\Responder;
-use	Facades\View\Map;
 use	Xiaoler\Blade\Factory;
 
 class Engine extends Responder

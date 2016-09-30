@@ -1,17 +1,16 @@
 <?php
 
-namespace View;
+namespace EyeSports\View;
 
-use Agreed\Client\Session;
 use ArrayIterator;
 
-class Notifications extends \Facades\View\Notifications
+class Notifications
 {
-	private $session = null;
+	private $notifications = array ( );
 
-	public function __construct ( Session $session )
+	public function __construct ( array $notifications = array ( ) )
 	{
-		$this->session = $session;
+		$this->notifications = $notifications;
 	}
 
 	public function getIterator ( ) : ArrayIterator

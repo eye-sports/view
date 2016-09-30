@@ -1,6 +1,6 @@
 <?php
 
-namespace View;
+namespace EyeSports\View;
 
 use Agreed\Client\Session;
 use Notification\Notification;

@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5adad2547a18642574c63c626bf18604",
-    "content-hash": "ee93175aee5b138e2bcb473b8d0cfb96",
+    "hash": "cfb98475554d8639e45f02ac2c6c362a",
+    "content-hash": "4539ccef4a795c80666ae4c3ea1fa793",
     "packages": [
         {
             "name": "eye-sports/agreements",
@@ -56,52 +56,6 @@
                 "interfaces"
             ],
             "time": "2016-09-29 08:44:23"
-        },
-        {
-            "name": "eye-sports/facades",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/eye-sports/facades.git",
-                "reference": "fbc36241efd7f85e3b9970172accdd800dedd9bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/eye-sports/facades/zipball/fbc36241efd7f85e3b9970172accdd800dedd9bc",
-                "reference": "fbc36241efd7f85e3b9970172accdd800dedd9bc",
-                "shasum": ""
-            },
-            "require": {
-                "lionar/agreements": "*",
-                "lionar/support": "*",
-                "php": ">=5.5.9"
-            },
-            "require-dev": {
-                "lionar/testing": "*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Facades\\": "source"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Aron Wouters",
-                    "email": "eye-sports@mail.com",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Eye-sports facades.",
-            "keywords": [
-                "Lionare",
-                "support"
-            ],
-            "time": "2016-09-29 08:46:24"
         },
         {
             "name": "lionar/agreements",
