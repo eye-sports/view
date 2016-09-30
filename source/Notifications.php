@@ -2,9 +2,10 @@
 
 namespace View;
 
+use IteratorAggregate;
 use ArrayIterator;
 
-class Notifications
+class Notifications implements IteratorAggregate
 {
 	private $notifications = array ( );
 
