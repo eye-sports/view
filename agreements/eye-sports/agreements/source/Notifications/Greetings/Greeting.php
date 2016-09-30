@@ -1,9 +1,9 @@
 <?php
 
-namespace Notifications\Greetings;
+namespace Agreed\Notifications\Greetings;
 
-use Notification\Notification;
-use Persons\Person;
+use Agreed\Notification\Notification;
+use Agreed\Persons\Person;
 
 class Greeting extends Notification
 {

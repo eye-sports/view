@@ -1,9 +1,9 @@
 <?php
 
-namespace Sports\Tests;
+namespace Agreed\Sports\Tests;
 
 use Mockery;
-use Sports\Exercises;
+use Agreed\Sports\Exercises;
 use Testing\TestCase;
 
 class ExercisesTest extends TestCase
@@ -30,8 +30,8 @@ class ExercisesTest extends TestCase
 	public function __construct_withValidExercisesArray_setsAllExercisesOnExercisesObject ( )
 	{
 		$collection = array ( 
-			'bench press' => Mockery::mock ( 'Sports\\Exercise', array ( 'bench press' ) ), 
-			'dead lift' => Mockery::mock ( 'Sports\\Exercise', array ( 'dead lift' ) ), 
+			'bench press' => Mockery::mock ( 'Agreed\\Sports\\Exercise', array ( 'bench press' ) ), 
+			'dead lift' => Mockery::mock ( 'Agreed\\Sports\\Exercise', array ( 'dead lift' ) ), 
 		);
 
 		$exercises = new Exercises ( $collection );
@@ -49,7 +49,7 @@ class ExercisesTest extends TestCase
 	 */
 	public function add_withExercise_setsExerciseUnderExerciseNameInExercisesObject ( )
 	{
-		$exercise = Mockery::mock ( 'Sports\\Exercise', array ( 'bench press' ) );
+		$exercise = Mockery::mock ( 'Agreed\\Sports\\Exercise', array ( 'bench press' ) );
 		$exercises = new Exercises;
 		$exercises->add ( $exercise );
 		assertThat ( $this->property( $exercises, 'elements' ), 
@@ -71,8 +71,8 @@ class ExercisesTest extends TestCase
 	public function all_whenExercisesHasElements_setsArrayItteratorToAllExerciseElements ( )
 	{
 		$collection = array ( 
-			'bench press' => Mockery::mock ( 'Sports\\Exercise', array ( 'bench press' ) ), 
-			'dead lift' => Mockery::mock ( 'Sports\\Exercise', array ( 'dead lift' ) ), 
+			'bench press' => Mockery::mock ( 'Agreed\\Sports\\Exercise', array ( 'bench press' ) ), 
+			'dead lift' => Mockery::mock ( 'Agreed\\Sports\\Exercise', array ( 'dead lift' ) ), 
 		);
 
 		$exercises = new Exercises ( $collection );

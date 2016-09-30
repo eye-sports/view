@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "cfb98475554d8639e45f02ac2c6c362a",
-    "content-hash": "4539ccef4a795c80666ae4c3ea1fa793",
+    "hash": "226549092dc7b63977bfbce9830587ca",
+    "content-hash": "ccc6031ea84da38a7746cbbf279150dc",
     "packages": [
         {
             "name": "eye-sports/agreements",
@@ -13,15 +13,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/eye-sports/agreements.git",
-                "reference": "c64fc48508d4972782708d2d4bf52a59a91c6a8a"
+                "reference": "b18d5c6475f4e25f7559e64d1027195739595e2f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/eye-sports/agreements/zipball/c64fc48508d4972782708d2d4bf52a59a91c6a8a",
-                "reference": "c64fc48508d4972782708d2d4bf52a59a91c6a8a",
+                "url": "https://api.github.com/repos/eye-sports/agreements/zipball/b18d5c6475f4e25f7559e64d1027195739595e2f",
+                "reference": "b18d5c6475f4e25f7559e64d1027195739595e2f",
                 "shasum": ""
             },
             "require": {
+                "eye-sports/facades": "*",
                 "lionar/composer": "*",
                 "lionar/support": "*",
                 "php": ">=5.5.9"
@@ -32,7 +33,7 @@
             "type": "agreements",
             "autoload": {
                 "psr-4": {
-                    "": [
+                    "Agreed\\": [
                         "source"
                     ]
                 }
@@ -55,7 +56,51 @@
                 "abstract classes",
                 "interfaces"
             ],
-            "time": "2016-09-29 08:44:23"
+            "time": "2016-09-30 15:30:14"
+        },
+        {
+            "name": "eye-sports/facades",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/eye-sports/facades.git",
+                "reference": "9ac0ce74272d287aa7536057305de1ee72b7abd8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/eye-sports/facades/zipball/9ac0ce74272d287aa7536057305de1ee72b7abd8",
+                "reference": "9ac0ce74272d287aa7536057305de1ee72b7abd8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5.9"
+            },
+            "require-dev": {
+                "lionar/testing": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "": "source"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Aron Wouters",
+                    "email": "eye-sports@mail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Eye-sports facades.",
+            "keywords": [
+                "Lionare",
+                "support"
+            ],
+            "time": "2016-09-30 15:29:29"
         },
         {
             "name": "lionar/agreements",
@@ -63,12 +108,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lionar/agreements.git",
-                "reference": "e4da4dd20878f8ff7c84cef8b889e037a98cd012"
+                "reference": "ac85af32e44cdaca3aef592add0febcd65a93ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lionar/agreements/zipball/e4da4dd20878f8ff7c84cef8b889e037a98cd012",
-                "reference": "e4da4dd20878f8ff7c84cef8b889e037a98cd012",
+                "url": "https://api.github.com/repos/lionar/agreements/zipball/ac85af32e44cdaca3aef592add0febcd65a93ebe",
+                "reference": "ac85af32e44cdaca3aef592add0febcd65a93ebe",
                 "shasum": ""
             },
             "require": {
@@ -81,7 +126,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Agreed\\": [
+                    "Agreed\\Technical\\": [
                         "source"
                     ]
                 }
@@ -103,7 +148,7 @@
                 "component",
                 "lionar"
             ],
-            "time": "2016-09-28 10:39:08"
+            "time": "2016-09-30 12:30:44"
         },
         {
             "name": "lionar/composer",
@@ -162,12 +207,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lionar/HTTP.git",
-                "reference": "a5006151d0b6c51e1d1bdd3e11edd65187fa73d8"
+                "reference": "d9c61620e39806a15568ea31024a40c8aac3d0e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lionar/HTTP/zipball/a5006151d0b6c51e1d1bdd3e11edd65187fa73d8",
-                "reference": "a5006151d0b6c51e1d1bdd3e11edd65187fa73d8",
+                "url": "https://api.github.com/repos/lionar/HTTP/zipball/d9c61620e39806a15568ea31024a40c8aac3d0e9",
+                "reference": "d9c61620e39806a15568ea31024a40c8aac3d0e9",
                 "shasum": ""
             },
             "require": {
@@ -208,7 +253,7 @@
                 "http",
                 "lionar"
             ],
-            "time": "2016-09-28 12:15:06"
+            "time": "2016-09-30 12:32:29"
         },
         {
             "name": "lionar/support",
@@ -765,16 +810,16 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
-            "version": "3.1.0",
+            "version": "3.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd"
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/9270140b940ff02e58ec577c237274e92cd40cdd",
-                "reference": "9270140b940ff02e58ec577c237274e92cd40cdd",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/8331b5efe816ae05461b7ca1e721c01b46bafb3e",
+                "reference": "8331b5efe816ae05461b7ca1e721c01b46bafb3e",
                 "shasum": ""
             },
             "require": {
@@ -806,7 +851,7 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
-            "time": "2016-06-10 09:48:41"
+            "time": "2016-09-30 07:12:33"
         },
         {
             "name": "phpdocumentor/type-resolver",
@@ -1168,12 +1213,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40"
+                "reference": "376acc02748ad93ab2795630d7298b96313230b8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40",
-                "reference": "3d7e92beaed4518fc1c4f67091f0ebe23e1e0b40",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/376acc02748ad93ab2795630d7298b96313230b8",
+                "reference": "376acc02748ad93ab2795630d7298b96313230b8",
                 "shasum": ""
             },
             "require": {
@@ -1242,7 +1287,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2016-09-22 17:38:35"
+            "time": "2016-09-30 09:40:06"
         },
         {
             "name": "phpunit/phpunit-mock-objects",

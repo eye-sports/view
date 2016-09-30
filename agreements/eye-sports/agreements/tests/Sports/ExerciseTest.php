@@ -1,8 +1,8 @@
 <?php
 
-namespace Sports\Tests;
+namespace Agreed\Sports\Tests;
 
-use Sports\Exercise;
+use Agreed\Sports\Exercise;
 use Testing\TestCase;
 
 class ExerciseTest extends TestCase

@@ -1,6 +1,6 @@
 <?php
 
-namespace View;
+namespace Agreed\View;
 
 use InvalidArgumentException;
 use Facades\View\Map;

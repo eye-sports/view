@@ -1,6 +1,6 @@
 <?php
 
-namespace Sports;
+namespace Agreed\Sports;
 
 use InvalidArgumentException;
 use Support\Accessibility\Accessible;

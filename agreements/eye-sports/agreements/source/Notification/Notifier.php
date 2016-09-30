@@ -1,6 +1,6 @@
 <?php
 
-namespace Notification;
+namespace Agreed\Notification;
 
 interface Notifier
 {

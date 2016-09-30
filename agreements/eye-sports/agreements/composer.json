@@ -12,6 +12,7 @@
 		}
 	],
 	"require" : {
+		"eye-sports/facades": "*",
 		"lionar/composer": "*",
 		"lionar/support": "*",
 		"php": ">=5.5.9"
@@ -21,15 +22,15 @@
 	},
 	"autoload": {
     	"psr-4": {
-			"": [ "source" ]
+			"Agreed\\": [ "source" ]
    	 	}
   	},
 	"autoload-dev": {
     	"psr-4": {
-    		"Notification\\Tests\\" : [ "tests/Notification" ],
-    		"Notifications\\Sports\\Exercise\\Tests\\" : [ "tests/Notifications/Sports/Exercise" ],
-			"Response\\Tests\\" : [ "tests/Response" ],
-			"Sports\\Tests\\" : [ "tests/Sports" ]
+    		"Agreed\\Notification\\Tests\\" 					: "tests/Notification",
+    		"Agreed\\Notifications\\Sports\\Exercise\\Tests\\" 	: "tests/Notifications/Sports/Exercise",
+			"Agreed\\Sports\\Tests\\" 							: "tests/Sports",
+			"Agreed\\View\\Tests\\" 							: "tests/View"
 		}
 	},
 	"config": {

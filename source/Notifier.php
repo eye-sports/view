@@ -1,11 +1,11 @@
 <?php
 
-namespace EyeSports\View;
+namespace View;
 
-use Agreed\Client\Session;
-use Notification\Notification;
+use Agreed\Technical\Client\Session;
+use Agreed\Notification\Notification;
 
-class Notifier implements \Notification\Notifier
+class Notifier implements \Agreed\Notification\Notifier
 {
 	private $session = null;
 

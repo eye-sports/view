@@ -1,9 +1,9 @@
 <?php
 
-namespace EyeSports\View;
+namespace View;
 
 
-class Redirector extends \HTTP\Redirector implements \View\Redirector
+class Redirector extends \HTTP\Redirector implements \Agreed\View\Redirector
 {
 
 }

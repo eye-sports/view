@@ -1,9 +1,9 @@
 <?php
 
-namespace Notifications\Sports\Exercise;
+namespace Agreed\Notifications\Sports\Exercise;
 
-use Notification\Notification;
-use Sports\Exercise;
+use Agreed\Notification\Notification;
+use Agreed\Sports\Exercise;
 
 class Added extends Notification
 {

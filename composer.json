@@ -11,9 +11,10 @@
 		}
 	],
 	"require" : {
+		"eye-sports/agreements": "*",
+		"eye-sports/facades": "*",
 		"lionar/http": "*",
 		"lionar/support": "*",
-		"eye-sports/agreements": "*",
 		"php": ">=5.5.9",
 		"xiaoler/blade": "*"
   	},
@@ -22,12 +23,12 @@
 	},
 	"autoload": {
     	"psr-4": {
-			"EyeSports\\View\\": "source"
+			"View\\": "source"
    	 	}
   	},
 	"autoload-dev": {
     	"psr-4": {
-    		"EyeSports\\View\\Tests\\": "tests"
+    		"View\\Tests\\": "tests"
 		}
 	},
 	"config": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Notification\Tests;
+namespace Agreed\Notification\Tests;
 
 use Testing\TestCase;
 

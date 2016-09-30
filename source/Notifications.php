@@ -1,6 +1,6 @@
 <?php
 
-namespace EyeSports\View;
+namespace View;
 
 use ArrayIterator;
 
@@ -15,6 +15,6 @@ class Notifications
 
 	public function getIterator ( ) : ArrayIterator
 	{
-		return new ArrayIterator ( $this->session->flashed ( 'notifications', array ( ) ) );
+		return new ArrayIterator ( $this->notifications );
 	}
 }

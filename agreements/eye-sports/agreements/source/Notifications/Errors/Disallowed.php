@@ -1,8 +1,8 @@
 <?php
 
-namespace Notifications\Errors;
+namespace Agreed\Notifications\Errors;
 
-use Notification\Notification;
+use Agreed\Notification\Notification;
 
 class Disallowed extends Notification
 {
